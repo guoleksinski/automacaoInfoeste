@@ -1,0 +1,45 @@
+package br.com.oleksinski.ProjetoAutomacao;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import io.cucumber.java.After;
+import io.cucumber.java.Before;
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+
+public class PesquisaGoogle {
+	 private static WebDriver driver;
+	 
+@Before
+public void initialize() {
+	driver = new ChromeDriver();
+}
+@After
+public void close() {
+	driver.quit();
+}
+
+@Given("abro a pagina do google")
+public void abro_a_pagina_do_google() {
+    driver.get("https://google.com");
+}
+@When("digito na barra de pesquisa")
+public void digito_na_barra_de_pesquisa() {
+    driver.findElement(By.xpath("//*[@id=\"APjFqb\"]"));
+}
+@When("clico no botão pesquisar")
+public void clico_no_botão_pesquisar() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("deve aparecer a pesquisa feita")
+public void deve_aparecer_a_pesquisa_feita() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+}
+
+

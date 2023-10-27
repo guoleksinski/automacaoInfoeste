@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="LoginRunner" project="ProjetoAutomacao" tests="1" started="1" failures="0" errors="1" ignored="0">
+  <testsuite name="br.com.oleksinski.ProjetoAutomacao.runner.LoginRunner" time="2.202">
+    <testsuite name="pesquisa no google" time="2.202">
+      <testcase name="Fazer pesquisa no google" classname="pesquisa no google" time="2.202">
+        <error>io.cucumber.java.PendingException: TODO: implement me&#13;
+	at br.com.oleksinski.ProjetoAutomacao.PesquisaGoogle.digito_na_barra_de_pesquisa(PesquisaGoogle.java:26)&#13;
+	at ✽.digito na barra de pesquisa(file:///C:/Users/gusta/eclipse-workspace/ProjetoAutomacao/features/google.feature:6)&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

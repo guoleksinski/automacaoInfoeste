@@ -1,0 +1,9 @@
+package br.com.oleksinski.ProjetoAutomacao.runner;
+
+import io.cucumber.junit.CucumberOptions;
+import org.junit.runner.RunWith;
+
+@CucumberOptions()
+public class LoginRunner {
+
+}

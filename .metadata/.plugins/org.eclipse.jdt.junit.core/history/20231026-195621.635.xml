@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="LoginRunner" project="ProjetoAutomacao" tests="1" started="1" failures="1" errors="0" ignored="0">
+  <testsuite name="br.com.oleksinski.ProjetoAutomacao.runner.LoginRunner" time="16.361">
+    <testsuite name="pesquisa no google" time="16.361">
+      <testcase name="Fazer pesquisa no google" classname="pesquisa no google" time="16.361">
+        <failure>
+          <expected>Infoeste - Pesquisa Google</expected>
+          <actual>infoeste - Pesquisa Google</actual>
+          org.junit.ComparisonFailure: expected:&lt;[I]nfoeste - Pesquisa G...&gt; but was:&lt;[i]nfoeste - Pesquisa G...&gt;&#13;
+	at org.junit.Assert.assertEquals(Assert.java:117)&#13;
+	at org.junit.Assert.assertEquals(Assert.java:146)&#13;
+	at br.com.oleksinski.ProjetoAutomacao.PesquisaGoogle.deve_aparecer_a_pesquisa_feita(PesquisaGoogle.java:44)&#13;
+	at ✽.deve aparecer a pesquisa feita(file:///C:/Users/gusta/eclipse-workspace/ProjetoAutomacao/features/google.feature:8)&#13;
+&#13;
+
+        </failure>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

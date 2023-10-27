@@ -1,0 +1,5 @@
+package br.com.oleksinski.ProjetoAutomacao.steps.cadastro;
+
+public class CadastroSteps {
+
+}

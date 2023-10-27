@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="CadastroRunner" project="ProjetoAutomacao" tests="1" started="1" failures="0" errors="1" ignored="0">
+  <testsuite name="br.com.oleksinski.ProjetoAutomacao.runner.CadastroRunner" time="1.418">
+    <testsuite name="Cadastro" time="1.418">
+      <testcase name="Cadastro com sucesso" classname="Cadastro" time="1.418">
+        <error>io.cucumber.junit.UndefinedStepException: The step 'entro na página de cadastro' and 3 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("entro na página de cadastro")
+public void entro_na_página_de_cadastro() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("escolho a opção professor")
+public void escolho_a_opção_professor() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("preencho os campos")
+public void preencho_os_campos() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("devo ser cadastrado")
+public void devo_ser_cadastrado() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="CadastroRunner" project="ProjetoAutomacao" tests="1" started="1" failures="0" errors="1" ignored="0">
+  <testsuite name="br.com.oleksinski.ProjetoAutomacao.runner.CadastroRunner" time="21.67">
+    <testsuite name="Cadastro" time="21.67">
+      <testcase name="Cadastro com sucesso" classname="Cadastro" time="21.671">
+        <error>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for url to contain "localhost". Current url: "data:," (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.14.1', revision: '03f8ede370'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.118, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\gusta\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50938}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50938/devtoo..., se:cdpVersion: 118.0.5993.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0cb1cffa47fd3c7c72afeeed09573a48&#13;
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)&#13;
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)&#13;
+	at br.com.oleksinski.ProjetoAutomacao.dsl.Dsl.esperarCarregarPagina(Dsl.java:25)&#13;
+	at br.com.oleksinski.ProjetoAutomacao.pages.HomePage.aguardarHomePageCarregar(HomePage.java:21)&#13;
+	at br.com.oleksinski.ProjetoAutomacao.steps.cadastro.CadastroSteps.initialize(CadastroSteps.java:26)&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

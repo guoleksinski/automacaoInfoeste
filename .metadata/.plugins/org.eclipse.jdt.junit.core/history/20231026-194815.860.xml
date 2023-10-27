@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="LoginRunner" project="ProjetoAutomacao" tests="1" started="1" failures="0" errors="1" ignored="0">
+  <testsuite name="br.com.oleksinski.ProjetoAutomacao.runner.LoginRunner" time="16.216">
+    <testsuite name="pesquisa no google" time="16.216">
+      <testcase name="Fazer pesquisa no google" classname="pesquisa no google" time="16.216">
+        <error>io.cucumber.java.PendingException: TODO: implement me&#13;
+	at br.com.oleksinski.ProjetoAutomacao.PesquisaGoogle.deve_aparecer_a_pesquisa_feita(PesquisaGoogle.java:44)&#13;
+	at ✽.deve aparecer a pesquisa feita(file:///C:/Users/gusta/eclipse-workspace/ProjetoAutomacao/features/google.feature:8)&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

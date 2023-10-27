@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="LoginRunner" project="ProjetoAutomacao" tests="1" started="1" failures="0" errors="1" ignored="0">
+  <testsuite name="br.com.oleksinski.ProjetoAutomacao.runner.LoginRunner" time="2.142">
+    <testsuite name="pesquisa no google" time="2.142">
+      <testcase name="Fazer pesquisa no google" classname="pesquisa no google" time="2.142">
+        <error>io.cucumber.java.PendingException: TODO: implement me&#13;
+	at br.com.oleksinski.ProjetoAutomacao.PesquisaGoogle.clico_no_botão_pesquisar(PesquisaGoogle.java:37)&#13;
+	at ✽.clico no botão pesquisar(file:///C:/Users/gusta/eclipse-workspace/ProjetoAutomacao/features/google.feature:7)&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

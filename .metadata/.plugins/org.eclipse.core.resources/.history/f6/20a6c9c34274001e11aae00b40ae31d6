@@ -1,0 +1,19 @@
+package br.com.oleksinski.ProjetoAutomacao;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+       WebDriver driver = new EdgeDriver();
+       driver.get("https://google.com");
+       
+    }
+}
